@@ -1,25 +1,20 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   font-family: "abhaya Libre", serif;
+}
+.masthead {
+  background-color: #423ca3;
   color: #fff;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+.nav a:hover {
+  background-color: #fff;
+  color: #000;
 }
 
-header {
-  background-color: #423ca3;
+.nav a {
+  background-color: #15114c;
+  color: #fff;
+  border: none;
 }
 
 .btn {
@@ -31,4 +26,19 @@ header {
   background-color: #fff;
   border-color: #fff;
   color: #423ca3;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+  .logo {
+    text-align: left;
+  }
+  
 }
