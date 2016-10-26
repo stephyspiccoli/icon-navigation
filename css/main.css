@@ -1,20 +1,21 @@
 html {
-  font-family: "abhaya Libre", serif;
+  font-family: "Abhaya Libre", serif;
 }
+
 .masthead {
   background-color: #423ca3;
   color: #fff;
-}
-
-.nav a:hover {
-  background-color: #fff;
-  color: #000;
 }
 
 .nav a {
   background-color: #15114c;
   color: #fff;
   border: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .btn {
@@ -37,8 +38,13 @@ html {
 }
 
 @media only screen and (min-width: 60em) {
+
   .logo {
     text-align: left;
   }
-  
+
+  .nav {
+    text-align: right;
+  }
+
 }
