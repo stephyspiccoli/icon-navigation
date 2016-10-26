@@ -17,3 +17,18 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  background-color: #423ca3;
+}
+
+.btn {
+  background-color: #15114c;
+  border-color: #15114c;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #423ca3;
+}
